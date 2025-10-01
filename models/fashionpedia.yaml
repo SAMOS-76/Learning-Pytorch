@@ -1,0 +1,60 @@
+# Fashionpedia dataset config for YOLOv8
+# This assumes you exported to datasets/fashionpedia_yolo/
+
+path: C:/Users/soseb/OneDrive - Imperial College London/28_07_2025/Learning-Pytorch/models/fashionpedia_yolo  # base dataset path
+
+train: images/train  # training images
+val: images/val      # validation images
+
+# Number of classes
+nc: 45   # Fashionpedia has 46 clothing categories
+
+# Class names
+names:
+  [
+    "short_sleeve_top",
+    "long_sleeve_top",
+    "short_sleeve_outwear",
+    "long_sleeve_outwear",
+    "vest",
+    "sling",
+    "shorts",
+    "trousers",
+    "skirt",
+    "short_sleeve_dress",
+    "long_sleeve_dress",
+    "vest_dress",
+    "sling_dress",
+    "hat",
+    "tie",
+    "glove",
+    "belt",
+    "sock",
+    "shoe",
+    "eye_glasses",
+    "handbag",
+    "scarf",
+    "swimwear",
+    "bracelet",
+    "necklace",
+    "ring",
+    "earring",
+    "watch",
+    "wallet",
+    "umbrella",
+    "helmet",
+    "backpack",
+    "bag",
+    "headband",
+    "cape",
+    "hair_accessory",
+    "leg_warmers",
+    "socks_with_sandals",
+    "coat",
+    "jacket",
+    "cardigan",
+    "sweater",
+    "hoodie",
+    "blazer",
+    "tunic"
+  ]
